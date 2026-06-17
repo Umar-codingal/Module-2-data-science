@@ -14,12 +14,21 @@ print()
 word=input("Skip lines starting with: ")
 file= open("shoppinglist.txt","r")
 for line in file:
-    if not line.startswith(word):
+    if  line.startswith(word):
         print("Skip ->",line.strip())
     else:
         print("keep ->",line.strip())
 
 file.close()
 print()
+
+file= open("shoppinglist.txt","r")
+lines=file.readlines()
+file.close()
+out=open("shoppinglist.txt","w")
+for i in range(0,len(lines),2):
+    out.write(lines[i])
+out.close()
+print("Removed every second line from shopping list")
 
 
