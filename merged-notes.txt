@@ -1,0 +1,13 @@
+=== history-notes.txt ===
+1923 - Ruhr Crisis
+1939 - Invasion of Poland
+1945 - Atomic Bombing of Hiroshima
+1953 - soviet nuclear test
+1962 - Cuban Missile Crisis
+1989 - Fall of the Berlin Wall
+
+=== economics-notes.txt ===
+Economics is the study of how societies allocate resources.
+Supply and demand determine market prices.
+Inflation is a sustained increase in the general price level.
+
