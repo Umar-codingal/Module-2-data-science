@@ -1,4 +1,4 @@
-a= 3000
+a= 200
 for num in range(1,a+1):
     c=0
     rev = 0
