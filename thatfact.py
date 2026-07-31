@@ -1,29 +1,25 @@
 
 def print_factors(number):
-    factors=[]
     print("The factors of", number,"are: ")
     for i in range (1, number +1):
         if number%i == 0:
-            factors.append (i)
-            print(factors)
+            print(i)
             
-    for j in factors:
-        if len(j) == 2:
-            print("Its a prime")
-        else:
-            print("not a prime")
-
-        
+    
 
 number = int(input("Enter your number to find it's factors: "))
 
-# def prime_check(factors):
-#     for j in factors:
-#         if len(j) == 2:
-#             print("Its a prime")
-#         else:
-#             print("not a prime")
+def prime_check(number):
+    if number<2:
+        return False
 
-      
-print_factors(number)
-# prime_check(factors)
+    for j in range(2,int(number**0.5)+1):
+        if number % j == 0:
+           return False
+        else:
+            print("prime")
+
+
+    
+# print_factors(number)
+prime_check(number)
